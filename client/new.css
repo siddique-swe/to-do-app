@@ -1,0 +1,169 @@
+main {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+table {
+    margin: 50px auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 5px;
+}
+
+/* Styles for the section container */
+#update-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the label */
+  #update-row label {
+    font-weight: bold;
+  }
+  
+  /* Styles for the input field */
+  #update-name-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the update button */
+  #update-row-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the update button */
+  #update-row-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Active effect for the update button when clicked */
+  #update-row-btn:active {
+    background-color: #3e8e41;
+  }
+  
+
+  /* Styles for the table */
+#table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the table header cells */
+  #table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles for the table body cells */
+  #table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Alternate row background color for better readability */
+  #table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles for the Delete and Edit buttons */
+  #table .delete-btn,
+  #table .edit-btn {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  /* Hover effect for the buttons */
+  #table .delete-btn:hover,
+  #table .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Active effect for the buttons when clicked */
+  #table .delete-btn:active,
+  #table .edit-btn:active {
+    background-color: #3e8e41;
+  }
+ 
+  /* Styles for the label */
+label {
+    font-weight: bold;
+  }
+  
+  /* Styles for the input field */
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the add name button */
+  #add-name-btn {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the add name button */
+  #add-name-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Active effect for the add name button when clicked */
+  #add-name-btn:active {
+    background-color: #3e8e41;
+  }
+  
+  /* Styles for the search input field */
+  #search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the search button */
+  #search-btn {
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the search button */
+  #search-btn:hover {
+    background-color: #007A99;
+  }
+  
+  /* Active effect for the search button when clicked */
+  #search-btn:active {
+    background-color: #00657a;
+  }
+  
